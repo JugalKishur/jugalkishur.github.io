@@ -2,9 +2,9 @@
 "src" }} {{ $alt := .Get "alt" }} {{ $width := .Get "width" }}
 
 <figure>
-  <a href="{{ $link }}">
-    <img src="{{ $src | absURL }}" alt="{{ $alt }}" width="{{ $width }}" />
-  </a>
+  <!-- <a href="{{ $link }}"> -->
+  <img src="{{ $src | absURL }}" alt="{{ $alt }}" width="{{ $width }}" />
+  <!-- </a> -->
   <figcaption>{{ $caption }}</figcaption>
   <a style="margin-top: 5px" href="{{ $link }}" class="btn btn-primary"
     >Read More</a
