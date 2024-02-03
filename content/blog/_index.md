@@ -1,5 +1,0 @@
----
-title: "Blog"
----
-
-# My Blog
