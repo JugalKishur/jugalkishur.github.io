@@ -1,20 +1,21 @@
 ---
-title: "blog"
+title: "Blog"
 ---
 
-{{< blog
-  link="/blog/test"
-  src="https://picsum.photos/800/600?image=1041"
-  alt="Test"
-  title="Card Title"
-  subtitle="This explains the card in more detail"
-  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." >}}
+{{< blog_card
+src="https://www.shutterstock.com/image-vector/young-man-anime-style-character-600nw-2313503433.jpg"
+author="John doe"
+date="Feb. 3, 2024"
+title="Learning to code"
+subtitle="Opening a door to the future"
+description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit."
+link="/blog/learning-to-code">}}
 
-{{< blog
-link="/blog/test"
-src="https://picsum.photos/800/600?image=1041"
-alt="Test"
-title="Card Title"
-alignment="left"
-subtitle="This explains the card in more detail"
-description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat." >}}
+{{< blog_card
+src="https://www.shutterstock.com/image-vector/young-man-anime-style-character-600nw-2313503433.jpg"
+author="John doe"
+date="Feb. 3, 2024"
+title="Learning to code"
+subtitle="Opening a door to the future"
+description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit."
+link="/blog/learning-to-code">}}
